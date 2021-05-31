@@ -32,6 +32,6 @@ function startChangeColor() {
 
 function stopChangeColor() {
   refs.start.disabled = false;
-  clearInterval(interval);
   refs.body.style.backgroundColor = colors[0];
+  clearInterval(interval);
 }
